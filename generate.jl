@@ -108,6 +108,9 @@ formatted_entries = join(entry.(leaderboard), "\n")
 template = read("./template.html", String)
 write(
     "index.html",
-    replace(template, "%%%LEADERBOARD%%%"=>string(formatted_entries))
+    replace(template, 
+        "%%%LEADERBOARD%%%"=>string(formatted_entries),
+        "%%%REGEN%%%"=>formatdate(now()) * " à " * Dates.format(now(), "HH:mm"),
+    )
 )
 
