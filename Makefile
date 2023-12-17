@@ -1,6 +1,7 @@
 JULIA=$(shell which julia)
 
 build:
+	${JULIA} --project -e 'import Pkg; Pkg.instantiate()'
 	${JULIA} --project generate.jl
 	mkdir -p __site
 	cp -r assets __site/
