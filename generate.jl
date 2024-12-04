@@ -43,6 +43,7 @@ ALL_PRIME_MINISTERS = Dict([
     "Valls" => PrimeMinister( "Manuel Valls", "", "left", "valls.jpg", "https://commons.wikimedia.org/wiki/File:Valls_Schaefer_Munich_Economic_Summit_2015_(cropped).JPG?uselang=fr")
     "Philippe" => PrimeMinister( "Édouard Philippe", "", "right", "philippe.jpg", "https://commons.wikimedia.org/wiki/File:%C3%89douard_Philippe_%C3%A0_Ch%C3%A2lons-en-Champagne_en_2023._(cropped).jpg?uselang=fr")
     "Borne" => PrimeMinister( "Élisabeth Borne", "", "center", "borne.jpg", "https://commons.wikimedia.org/wiki/File:La_Premi%C3%A8re_ministre_fran%C3%A7aise_%C3%89lisabeth_Borne_(cropped).jpg")
+    "Barnier" => PrimeMinister( "Michel Barnier", "", "center", "barnier.jpg", "https://commons.wikimedia.org/w/index.php?curid=112234754")
 ])
 
 DATA_URL = "https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/engagements-de-responsabilite-du-gouvernement-et-motions-de-censure-depuis-1958"
